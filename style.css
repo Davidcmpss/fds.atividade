@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  background: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #cacaca;
+}
+
+.intro h1 {
+  color: rgb(26, 39, 49);
+  font-family: "Alumni Sans", sans-serif;
+  width: 100%;
+  font-weight: 500;
+  font-size: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: -2px;
+}
+
+.intro p {
+  width: auto;
+  padding: 20px 80px;
+  text-align: justify;
+  font-size: 20px;
+  letter-spacing: -1px;
+}
+
+.intro hr {
+  width: 0px;
+  margin-top: 0.5rem;
+  height: 2px;
+  border: none;
+  border-radius: 3px;
+  background: #cacaca;
+}
+
+.intro:hover hr {
+  width: 100%;
+  background: linear-gradient(to right, #000000, #ffffff00);
+  transition: width 0.5s ease-in-out;
+}
+
+button {
+  margin-top: 30px;
+  font-weight: 400;
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  color: white;
+  background: linear-gradient(to right, #000000, #232323);
+}
+
+.lista {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lista p {
+  font-weight: 500;
+}
+.lista ul {
+  margin-top: 15px;
+}
+
+.hobbies {
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hobbies img {
+  margin-left: 5px;
+  border-radius: 10px;
+  width: 150px;
+  height: auto;
+}
+
+.hobbies li {
+  margin-bottom: 10px;
+}
+
+.paises {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.paises p {
+  width: 50%;
+  font-size: 80px;
+}
+
+.paises table {
+  width: 50%;
+  padding: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  border-collapse: collapse;
+}
+
+table img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+td {
+  padding: 5px 10px;
+  text-align: center;
+  border: 1px solid #000000;
+}
+
+td:hover {
+  background-color: #000000;
+  color: white;
+  transform: scale(1.08);
+}
+
+th {
+  padding: 5px 10px;
+  text-align: center;
+  border: 1px solid #000000;
+}
+
+.link {
+  background: #cacaca;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.link p {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.link a {
+  font-weight: 400;
+  text-decoration: none;
+  color: rgb(0, 143, 183);
+  padding: 2px;
+}
+
+a:hover {
+  color: rgb(4, 46, 72);
+}
